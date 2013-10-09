@@ -1,0 +1,414 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-color: #424242;
+	font-family: Arial;
+	font-size:12px;
+	color: #FFFFFF;
+}
+
+body a {
+	color: #CCCCCC;
+}
+
+@font-face {
+    font-family: 'HoboStdMedium';
+    src: url('../fonts/hobostd-webfont.eot');
+    src: url('../fonts/hobostd-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/hobostd-webfont.woff') format('woff'),
+         url('../fonts/hobostd-webfont.ttf') format('truetype'),
+         url('../fonts/hobostd-webfont.svg#HoboStdMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+	font-family: HoboStdMedium, Arial;
+	font-size: 40px;
+	color: #999999;
+	text-shadow: #CCCCCC 1px 1px;
+	text-align:center;
+}
+
+#precontent {
+	margin: 10px;
+}
+
+#login {
+	width: 350px;
+	height: 205px;
+	background-color: #474747;
+	border-radius: 80px;
+	-moz-border-radius: 80px;
+    -webkit-border-radius: 80px;
+	border: 1px solid #333333;
+	padding: 50px;
+	padding-top: 70px;
+	margin-top: 120px;
+	margin-bottom: 120px;
+}
+
+#paybutton, #checkoutbutton {
+	border-radius: 70px;
+	-moz-border-radius: 70px;
+    -webkit-border-radius: 70px;
+	background-color: #FEBF01;
+	border: 1px solid #BE8F00;
+	margin-top: 30px;
+	width: 225px;
+	height: 225px;
+	font-family: HoboStdMedium, Arial;
+	font-size: 35px;
+    text-shadow: -1px 0 #000000, 0 1px #000000, 1px 0 #000000, 0 -1px #000000;
+	color: #FFFFFF;
+}
+
+
+#startbook, #viewcheckout {
+	margin: 20px;
+}
+
+#btnLogin, #booknextbtn, #bookprevbtn {
+	width: 116px;
+}
+
+#bookprevbtn {
+	float: left;
+}
+
+#btnLogin, #booknextbtn {
+	float: right;
+}
+
+#btnLogin, #startbook, #booknextbtn, #bookprevbtn, #viewcheckout, .sysbutton {
+	border: 1px solid #B1770B;
+	border-radius: 16px;
+	-moz-border-radius: 16px;
+    -webkit-border-radius: 16px;
+	height: 50px;
+	font-size: 30px;
+	color: #424242;
+	background-color: #EFE457;
+	background-image: -moz-linear-gradient(#EFE457, #FEAE31);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#EFE457), to(#FEAE31));
+	background-image: -webkit-linear-gradient(#EFE457, #FEAE31); 
+	background-image: -o-linear-gradient(#EFE457, #FEAE31);
+	text-shadow: #666666 1px 1px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+#resetpassword {
+	text-decoration: none;
+	padding-top: 38px;
+	float:left;
+	height: 12px;
+}
+
+#username, #password_field_text, #password_field_password, .login_form_fields, .activityselector select, #reportwizard select, #formbody input[type='text'], #formbody input[type='password'], #formbody select {
+	border: #BDBCBD solid 2px;
+	margin-bottom: 20px;
+	background-color:#FFFFFF;
+	background-image: -moz-linear-gradient(#FFFFFF, #DEDEDE);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFFFF), to(#DEDEDE));
+	background-image: -webkit-linear-gradient(#FFFFFF, #DEDEDE);
+	background-image: -o-linear-gradient(#FFFFFF, #DEDEDE);
+	border-radius: 16px;
+	-moz-border-radius: 16px;
+    -webkit-border-radius: 16px;
+	width: 355px;
+}
+
+#username, #password_field_text, #password_field_password, .login_form_fields, .activityselector select, #formbody select {
+	height: 50px;
+	font-size: 30px;
+}
+
+#formbody input[type='text'] {
+	height: 40px;
+	font-size: 24px;
+}
+
+#formbody label {
+	font-size: 30px;
+	color: #999999;
+	margin-right: 10px;
+	display: inline-block;
+}
+
+.login_form_fields {
+	text-transform:lowercase;
+	color: #CCCCCC;
+}
+
+
+#header {
+	height: 90px;
+	background: url(../images/slices/header.png) repeat-x;
+	margin-bottom: 10px;
+	color: #CCCCCC;
+}
+
+#logo {
+	background: url(../images/logo.png) no-repeat;
+	width: 147px;
+	height: 30px;
+	display:block;
+	margin-top: 30px;
+	margin-left: 30px;
+	float: left;
+}
+
+#userstring {
+	float: right;
+	display: block;
+	margin: 5px;
+}
+
+.versionno {
+	top: 0;
+	float: right;
+	display: block;
+	width: 30px;
+	font-size:10px;
+	color:#FFFFFF;
+}
+
+#servertime {
+	font-size: 30px;
+	padding-top: 10px;
+	float: left;
+}
+
+#footer {
+	height: 90px;
+	margin-top: 10px;
+	margin-left: 60px;
+	margin-right: 60px;
+	background: url(../images/slices/footerband.png) repeat-x;
+}
+
+#footer p {
+	text-align:center;
+	font-size:11px;
+	padding-top: 10px;
+	color: #CCCCCC;
+}
+
+.checkout_content {
+	font-size: 30px;
+}
+
+.activityselector {
+	text-align: left;
+}
+
+.activityselector label {
+	font-size: 30px;
+	color: #999999;
+	width: 170px;
+	display: inline-block;
+}
+
+.detailinfo {
+	text-align: right;
+	width: 170px;
+	font-size: 14px;
+	color: #999999;
+}
+
+.activityblock_invalid {
+	background-color: #FFBABA;
+}
+
+#totalcost {
+	font-size: 30px;
+	color: #999999;
+	display: inline-block;
+	float: left;
+	margin-left: 55px;
+	margin-top: 8px;
+}
+
+.tick {
+	color: #3300CC;
+	background-color: #6699FF;
+	background-image:url(../images/tick_16.png);
+   	background-repeat: no-repeat;
+        padding: 5px 10px 5px 30px;
+        border: 1px solid;
+   	background-position: 10px center;
+        margin-bottom: 10px;
+}
+
+.cross {
+	color: #D8000C;
+	background-color: #FFBABA;
+	background-image: url(../images/cross_16.png);
+	background-repeat: no-repeat;
+   	padding: 5px 10px 5px 30px;
+        border: 1px solid;
+   	background-position: 10px center;
+        margin-bottom: 10px;
+}
+
+.accordion {
+	border-bottom: solid 1px #1179C5;
+	margin-bottom: 10px;
+}
+.accordion h3 {
+	background: #8BC2EB url(../images/arrow-square.gif) no-repeat right -51px;
+	padding: 7px 15px;
+	margin: 0;
+	font: bold 120%/100% Arial, Helvetica, sans-serif;
+	border: solid 1px #1179C5;
+	border-bottom: none;
+	cursor: pointer;
+}
+.accordion h3:hover {
+	background-color: #74B6E7;
+}
+.accordion h3.active {
+	background-position: right 5px;
+}
+.accordion p {
+	background: #f7f7f7;
+	margin: 0;
+	padding: 10px 15px 10px;
+	border-left: solid 1px #1179C5;
+	border-right: solid 1px #1179C5;
+}
+
+.actnoexist {
+	background-image: url(../images/cross_16.png);
+	width: 16px;
+	height: 16px;
+}
+
+#admincontent {
+	margin: 20px;
+	margin-bottom: 5px;
+	padding: 15px;
+	border-radius: 6px;
+	border: 2px solid #666666;
+}
+
+#adminmainmenu {
+	background: #FEBF01;
+	height: 90px;
+	width: 100%;
+}
+
+#adminmainmenu tr td {
+	text-align:center;
+}
+
+#adminmainmenu tr td a {
+	display: block;
+	text-align: center;
+	background-position: center center;
+	text-decoration:none;
+	line-height: 140px;
+	height: 82px;
+	width: 82px;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#adminpanecontent, #adminheading {
+	padding: 5px;
+}
+
+#adminform label {
+	display: inline-block;
+	vertical-align:top;
+}
+
+#adminform input, #adminform select, #adminform textarea {
+	margin-bottom: 5px;
+}
+
+.activityform, .usermanagerform {
+	float: left;
+}
+
+.activityform label, .usermanagerform  label {
+	width: 120px;
+}
+
+#activitylist, #paperworklist, #waitinguserlist, #useroptions, #blockeduserlist {
+	width: 50%;
+	display: block;
+}
+
+#deletebtn {
+	background-image: url(../images/cross_16.png);
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+}
+
+#content {
+	padding: 0px 15px;
+}
+
+.bookingeditform label {
+	width: 100px;
+}
+
+.paperworkform {
+	float: left;
+}
+
+.paperworkform label {
+	width: 200px;
+}
+
+.paymentform label, .returnsform label {
+	width: 100px;
+}
+
+.userautoform label {
+	width:280px;
+}
+
+.year_recform label {
+	width: 70px;
+}
+
+.paperworkreturnform label {
+	margin-left: 10px;
+	width: 250px;
+}
+
+.checkouttextform label {
+	margin-right: 10px;
+}
+
+.settingsform label {
+	width: 130px;
+	margin-bottom: 5px;
+}
+
+.userblockform {
+	width: 50%;
+	float:left;
+}
+
+#timer-text {
+	margin-left: 30px;
+	color: #fff;
+	display:none;
+	width: 200px;
+}
+
+#timer {
+	display: block;
+	float: right;
+}

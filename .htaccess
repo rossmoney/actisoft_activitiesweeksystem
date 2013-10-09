@@ -1,0 +1,5 @@
+Options -Indexes
+ErrorDocument 404 http://rossmoney.co.uk/projects/actisoft/404
+ErrorDocument 403 http://rossmoney.co.uk/projects/actisoft/404
+RewriteEngine On
+RewriteRule    ^([A-Za-z0-9-]+)/?$ index.php?page=$1 [L]

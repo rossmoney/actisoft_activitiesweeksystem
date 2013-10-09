@@ -1,0 +1,51 @@
+/* CSS Document */
+
+body {
+	background-color:#FFF;
+	font-family: Verdana, Helvetica, sans-serif;
+	font-size:14px;
+}
+
+.report_header {
+	text-decoration: underline;
+	font-weight: normal;
+	margin-top: 0;
+	margin-bottom: 10px;	
+}
+
+#footer {
+	margin-top: 10px;
+	font-style:italic;
+	font-weight:bold;
+}
+
+.studentrow td {
+	border-top: 1px solid black;
+}
+
+.row_even {
+	background-color:#CCCCCC;
+}
+
+.row_even p, .row_odd p {
+	margin: 0px;
+}
+
+.row_odd {
+	background-color:#FFFFFF;
+}
+
+.reg_tickbox {
+	margin: 3px;
+	border: 1px dashed #000;
+	display:block;
+	width: 12px;
+	height: 12px;
+	background-color:#FFFFFF;
+}
+
+.heading {
+	 font-style:italic;
+	 font-weight:bold;
+         border-bottom: 1px solid #000;
+}
