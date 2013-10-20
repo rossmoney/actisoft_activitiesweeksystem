@@ -19,8 +19,6 @@ if(!$maintenancemode)
 	
 	$login_token_timeout = 30; //seconds
 		$mysql_host = "localhost";
-		$mysql_pass = "ehe6yruse";
-		$mysql_user = "projects";
 		$mysql_db = "actisoft";
 }
 ?>
